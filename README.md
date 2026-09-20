@@ -1,5 +1,5 @@
 # Token-Slash
-
+Link: "https://token-slash-main-serve-fable-stars-amrita-university-coimbatore.app.nitrocloud.ai"
 > TokenSlash is an advanced solution for prompt optimization and model selection that uses Artificial Intelligence as its driving force, leading to considerably lower costs, reduced tokens consumption, and shorter time spans for Large Language Model software.
 
 ![Model Context Protocol](https://img.shields.io/badge/Model%20Context%20Protocol-MCP-blue) ![Built with Nitrostack](https://img.shields.io/badge/Built%20with-Nitrostack-0A66FF) ![Status](https://img.shields.io/badge/status-live-brightgreen)
@@ -35,11 +35,9 @@ TokenSlash is created based on NitroStack SDK and Model Context Protocol and wor
 
 The **Model Context Protocol (MCP)** is an open standard that lets AI assistants securely connect to external tools, data sources, and services. Instead of being limited to what it was trained on, an AI model can call **MCP servers** to fetch live data, run actions, and integrate with real systems.
 
-This project is one such MCP server. Learn more about building and shipping MCP apps at [nitrostack.ai](https://nitrostack.ai).
-
 ## How MCP is Used in Token-Slash
 
-Token-Slash utilizes the **Model Context Protocol (MCP)** via the **NitroStack Framework** to serve as a standardized, protocol-compliant AI optimization server. By implementing MCP, Token-Slash allows any MCP client (such as Claude Desktop, Cursor IDE, NitroChat, or custom LLM agents) to natively invoke prompt optimization, model recommendation, and token analysis without requiring custom API integration code.
+Token-Slash utilizes the **Model Context Protocol (MCP)** via  to serve as a standardized, protocol-compliant AI optimization server. By implementing MCP, Token-Slash allows any MCP client (such as Claude Desktop, Cursor IDE, NitroChat, or custom LLM agents) to natively invoke prompt optimization, model recommendation, and token analysis without requiring custom API integration code.
 
 ### 1. Protocol Architecture & Transports
 - **Streamable HTTP Transport (`/mcp`)**: Exposes high-throughput JSON-RPC 2.0 streaming for web clients and cloud environments.
@@ -120,17 +118,6 @@ Add this server to your MCP client configuration. A typical entry looks like:
 
 Restart your client and the tools from this MCP server will be available to your AI assistant.
 
-## Deploy Your Own MCP App
-
-Want to build and ship an MCP server like this one? **[Nitrostack](https://nitrostack.ai)** lets you create, deploy, and host MCP apps in minutes — no infrastructure to manage.
-
-👉 **Start building:** [https://nitrostack.ai](https://nitrostack.ai)
-
-## Explore More MCP Apps
-
-- 🌙 Discover and share MCP projects with the community on [r/mcptothemoon](https://www.reddit.com/r/mcptothemoon/)
-- 🧰 Browse a growing catalog of MCP apps on [Nitrostack](https://nitrostack.ai/apps)
-
 ## FAQ
 
 ### What is an MCP server?
@@ -151,7 +138,7 @@ Use [Nitrostack](https://nitrostack.ai) to build, deploy, and host MCP apps with
 
 ## Keywords
 
-`Enterprise AI & Workplace Automation` · `Token-Slash` · `MCP` · `Model Context Protocol` · `MCP server` · `MCP app` · `AI tools` · `AI agents` · `LLM tools` · `Claude MCP` · `Nitrostack` · `deploy MCP server` · `build MCP app`
+`Enterprise AI & Workplace Automation` · `Token-Slash` · `MCP` · `Model Context Protocol` · `MCP server` · `MCP app` · `AI tools` · `AI agents` · `LLM tools` ·  · `deploy MCP server` · `build MCP app`
 
 ## License
 
@@ -159,4 +146,3 @@ MIT © 2026
 
 ---
 
-Built with ❤️ using the Model Context Protocol on [Nitrostack](https://nitrostack.ai). Share your MCP app on [r/mcptothemoon](https://www.reddit.com/r/mcptothemoon/).
