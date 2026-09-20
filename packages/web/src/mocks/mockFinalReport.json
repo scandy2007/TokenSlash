@@ -1,0 +1,48 @@
+{
+  "originalPrompt": "Hey! Can you please write a quick regex that extracts email addresses from a giant text string and make sure it handles subdomains and plus addressing? I've been stuck on this for hours. Thank you so much in advance!",
+  "optimizedPrompt": "<task>Generate regex for email extraction</task>\n<requirements>\n1. Support subdomains.\n2. Handle plus (+) addressing (e.g., user+tag@domain.com).\n</requirements>\n<output_format>Return only the regex pattern string without markdown or explanations.</output_format>",
+  "tokenSavingsPercentage": 72.0,
+  "originalTokens": 125,
+  "optimizedTokens": 35,
+  "recommendedModel": {
+    "provider": "Tier-0 Local Edge",
+    "model": "Llama-3.2-1B (Ollama)",
+    "reasoning": "Task complexity score is 18/100 (Regex generation). PromptIQ Ensemble bypassed cloud APIs to route directly to local Edge-SLM for $0 cost, 100% privacy, and near-zero latency while maintaining 99.8% structural accuracy.",
+    "costPerRequest": 0.000000,
+    "monthlyCost": 0.00,
+    "performanceScore": 99,
+    "latencyMs": 15,
+    "estimatedQuality": "99.8% parity with GPT-4o"
+  },
+  "costComparison": {
+    "currentModel": {
+      "modelName": "GPT-4o (Legacy Default)",
+      "provider": "OpenAI",
+      "perRequestCost": 0.00250,
+      "monthlyCost": 1250.00,
+      "latencyMs": 950,
+      "performanceScore": 98,
+      "isRecommended": false
+    },
+    "recommendedModel": {
+      "modelName": "Llama-3.2-1B (Local Edge)",
+      "provider": "Tier-0 Local Edge",
+      "perRequestCost": 0.000000,
+      "monthlyCost": 0.00,
+      "latencyMs": 15,
+      "performanceScore": 99,
+      "isRecommended": true
+    },
+    "savingsPerRequest": 0.00250,
+    "monthlySavings": 1250.00,
+    "percentageSaved": 100.0
+  },
+  "monthlySavingsEstimate": 1250.00,
+  "confidenceScore": 99,
+  "executionSummary": "TokenSlash's NitroStack engine detected a low-complexity instruction (Complexity Score < 25). Triggered Tier-0 Edge-SLM Bypass to execute the regex generation locally on Llama-3.2. Eliminated cloud latency, secured 100% data privacy, and reduced execution cost to absolutely zero.",
+  "suggestions": [
+    "Compile the regex pattern to avoid re-evaluation in your runtime.",
+    "Consider adding catastrophic backtracking safeguards if parsing >10MB strings.",
+    "Bypass enabled: No network request was made for this inference."
+  ]
+}
